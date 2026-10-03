@@ -23,7 +23,7 @@ public class Produto {
 	@Column(nullable = false)
 	private BigDecimal preco;
 	
-	private boolean estoque;
+	private Boolean estoque;
 	
 	public Produto() {}
 	
@@ -58,7 +58,7 @@ public class Produto {
 		this.preco = preco;
 	}
 
-	public boolean isEstoque() {
+	public boolean getEstoque() {
 		return estoque;
 	}
 
